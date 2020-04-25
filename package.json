@@ -1,0 +1,26 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "Simple proxy forwarder",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolinaShneider/proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolinaShneider/proxy/issues"
+  },
+  "homepage": "https://github.com/PolinaShneider/proxy#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "csurf": "^1.11.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0"
+  }
+}
